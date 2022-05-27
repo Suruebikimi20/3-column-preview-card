@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+main{
+    display: flex;
+    width: 65%;
+    margin-bottom:10px ;
+}
+#first{
+    background-color:  hsl(31, 77%, 52%);
+    padding: 1.5rem 0 1.5rem 3rem;
+    border-top-left-radius:0.5rem;
+    border-bottom-left-radius: 0.5rem ;
+}
+p{
+    width: 50%;
+}
+#second{
+    background-color:hsl(184, 100%, 22%)  ;
+    padding: 1.5rem 0 1.5rem 3rem;
+    
+}
+#third{
+    background-color: hsl(179, 100%, 13%) ;
+    padding: 1.5rem 0 1.5rem 3rem;
+    border-top-right-radius:0.5rem;
+    border-bottom-right-radius: 0.5rem ;  
+}
+h1{
+    text-transform: uppercase;
+    color: white ;
+    margin-bottom: 10px;
+}
+#mbappe{
+    border: 2px solid;
+    background-color: white;
+    color:   hsl(31, 77%, 52%); 
+    width: 100px;
+    border-radius:16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin-top:1rem;
+}
+#mbappe p{
+    width: 100%;
+    text-align: center;
+}
+#mbappe:hover,#mbappe:focus{
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+}
+#haaland{
+    border: 2px solid;
+    background-color: white;
+    color:   hsl(184,100%, 22%); 
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:16px;
+    height: 30px;
+    
+}
+#haaland:hover,#haaland:focus{
+    background-color: hsl(184,100%, 22%);
+    color: white;
+}
+
+#haaland p{
+    width: 100%;
+    text-align: center;
+}
+#foden{
+    border: 2px solid;
+    background-color: white;
+    color: hsl(179, 100%, 13%)  ; 
+    border-radius:16px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:16px;
+    height: 30px;
+    margin-top: 2rem;
+}
+#foden:hover,#foden:focus{
+    background-color: hsl(179, 100%, 13%)  ;
+    color: white;
+}
+#foden p{
+    width: 100%;
+    text-align: center;
+}
+@media screen and (max-width:800px){
+body{
+    
+}
+    main{
+        display: flex;
+        width: 90%;
+        margin-bottom:10px ;
+        flex-direction: column;
+        justify-content: center;
+
+    } 
+    #first{
+        background-color:  hsl(31, 77%, 52%);
+        padding: 1.5rem 0 1.5rem 3rem;
+        border-top-left-radius:0.5rem;
+        border-top-right-radius: 0.5rem ;
+        border-bottom-left-radius: 0;
+        width: 100%;
+    }
+    
+    #second{
+        background-color:hsl(184, 100%, 22%)  ;
+        padding: 1.5rem 0 1.5rem 3rem;
+        width: 100%;
+        
+    }
+    #third{
+        background-color: hsl(179, 100%, 13%) ;
+        padding: 1.5rem 0 1.5rem 3rem;
+        border-bottom-left-radius:0.5rem;
+        border-bottom-right-radius: 0.5rem ;  
+        width: 100%;
+        border-top-right-radius: 0;
+    }
+    .attribution{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+}
+   
